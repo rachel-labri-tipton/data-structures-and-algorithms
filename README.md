@@ -1,1 +1,1 @@
-# didactic-disco-and-other-data-structures
+# didactic-disco

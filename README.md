@@ -1,41 +1,45 @@
+![data structure image](image.png)
+
+
 As a personal goal in 2025, I want to improve my understanding of basic computer science data structures and algorithms with daily Leetcode problem practice. 
 
 This is meant to be my own resource for studying data structures, but I'm open to others having a look and maybe also using it as an supplementary resource for personal study. 
 
 In 2024, I started working on the Leetcode 75, a series of problems that focuses on different data structures and algorithms. I'm currently trying to solve the problems in JavaScript and Python. 
 
-# backtracking 
 
-# binary search
+## backtracking 
 
-# binary search tree
+## binary search
 
-# binary trees
+## binary search tree
 
-# bit manipulation
+## binary trees
 
-# dynamic programming 
+## bit manipulation
 
-# graphs
+## dynamic programming 
 
-# hashtables and maps
+## graphs
 
-# intervals 
+## hashtables and maps
 
-# linked-lists
+## intervals 
 
-# monotonic stacks
+## linked-lists
 
-# prefix sum
+## monotonic stacks
 
-# queues (FIFO)
+## prefix sum
 
-# sliding window
+## queues (FIFO)
 
-# stacks (LIFO)
+## sliding window
 
-# strings and arrays
+## stacks (LIFO)
 
-# trie
+## strings and arrays
 
-# two pointers# didactic-disco
+## trie
+
+## two pointers

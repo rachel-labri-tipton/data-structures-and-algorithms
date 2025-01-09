@@ -1,12 +1,10 @@
 ![data structure image](image.png)
 
+As a goal in 2025, I want to improve my understanding of basic computer science data structures and algorithms with daily Leetcode problem practice. 
 
-As a personal goal in 2025, I want to improve my understanding of basic computer science data structures and algorithms with daily Leetcode problem practice. 
-
-This is meant to be my own resource for studying data structures, but I'm open to others having a look and maybe also using it as an supplementary resource for personal study. 
+This is meant to be my own resource for studying data structures, but I'm open to others having a look and maybe also using it as a starting point for supplementary resource for personal study. 
 
 In 2024, I started working on the Leetcode 75, a series of problems that focuses on different data structures and algorithms. I'm currently trying to solve the problems in JavaScript and Python. 
-
 
 ## backtracking 
 

@@ -1,3 +1,7 @@
+### `monotonic stacks`
+
+A monotonic stack is a stack where elements are always in sorted order. This can be ascending or descending order. For review, a stack is a last-in, first-out (LIFO) data structure, meaning that the element added last is the first one to be removed. In mathematics, a monotonic function (or monotone function) is a function between ordered sets that preserves or reverses the given order. 
+
 Monotonic stacks are a good option when a problem involves comparing the size of numeric elements, with their order being relevant.
 
 [This article](https://dev.to/ashutosh049/monotonic-stack-4lkb) offers a good description of monotonic stack problems: 
@@ -18,6 +22,5 @@ Monotonic stacks are a good option when a problem involves comparing the size of
 
 Here is a [list](https://leetcode.com/problem-list/monotonic-stack/) of other monotonic stack problems from LeetCode. 
 
-The **key characteristic** of a monotonic stack is that it allows efficient computation of certain types of information, such as the **next greater element**, the **next smaller element**, or the nearest greater or smaller element for each element in a given sequence.
-
-A monotonic stack is a stack where elements are always in sorted order. This can be ascending or descending order. For review, a stack is a last-in, first-out (LIFO) data structure, meaning that the element added last is the first one to be removed. 
+The **key characteristic** of a monotonic stack is that it allows efficient computation of certain types of information, such as the **next greater element**, the **next smaller element**, or the **nearest greater** or **smaller element** for each element in a given sequence.
+ 

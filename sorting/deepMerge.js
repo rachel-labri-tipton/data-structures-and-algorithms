@@ -37,4 +37,5 @@ const mergedObject = deepMerge(obj1, obj2);
 console.log(mergedObject);
 
 
-//By including the check target[key] !== null and source[key] !== null, we ensure that we're only trying to merge objects that are not null. This enhances the robustness of the merging function, preventing potential errors during runtime.
+//By including the check target[key] !== null and source[key] !== null, check's that only not-null objecst are merged. 
+// This enhances the robustness of the merging function, preventing potential errors during runtime.

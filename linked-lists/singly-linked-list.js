@@ -97,7 +97,7 @@ class SinglyLinkedList{
     insert(idx,val){
         let newNode = new Node(val)
         if (idx<0 || idx > this.length) return false
-        if (idx === length) this.push(val) 
+        if (idx === this.length) this.push(val) 
         if (idx === 0)this.unshift(val)
         let prev = this.get(idx-1)
         let temp = prev.next 
@@ -138,7 +138,63 @@ class SinglyLinkedList{
             current = current.next
         }
         console.log(current)
+    }
+  rotate () {
+    class Node {
+    constructor(val) {
+        this.val = val;
+        this.next = null;
+    }
+}
+
+class SinglyLinkedList {
+    constructor() {
+        this.head = null;
+    }
+
+    push(val) {
+        const newNode = new Node(val);
+        if (!this.head) {
+            this.head = newNode;
+        } else {
+            let current = this.head;
+            while (current.next) {
+                current = current.next;
+            }
+            current.next = newNode;
         }
+        return this;
+    }
+
+    rotate(n) {
+    var trueN = ((n % this.length) + this.length) % this.length;
+    if (trueN === 0 || this.length < 2) return this;
+    var count = 0;
+    var cur = this.tail;
+    this.tail.next = this.head;
+    while (count < trueN) {
+      cur = cur.next;
+      count++
+    }
+    this.tail = cur
+    this.head = cur.next
+    this.tail.next = null;
+    return this;
+  }
+}
+
+// Example usage:
+let linkedList = new SinglyLinkedList();
+linkedList.push(1).push(2).push(3).push(4).push(5);
+linkedList.rotate(2); // Rotate right by 2 positions
+
+// Print the rotated list
+let current = linkedList.head;
+while (current) {
+    console.log(current.val); // Output: 4, 5, 1, 2, 3
+    current = current.next;
+}
+  }
     }
         
 
@@ -148,4 +204,6 @@ list.push(47)
 list.push(3)
 list.push(8)
 list.push(9)
+list.print()
+list.insert(2, 5)
 list.print()

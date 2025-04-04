@@ -40,4 +40,4 @@ class Queue{
     }
 }
 
-let queue = new newStack()
+let queue = new newQueue()

@@ -1,4 +1,4 @@
-![data structure image](image.png)
+![data structure image](data-structures-image.png)
 
 As a goal in 2025, I want to improve my understanding of basic computer science data structures and algorithms with daily Leetcode problem practice. 
 

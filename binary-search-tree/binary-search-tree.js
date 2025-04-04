@@ -69,6 +69,18 @@ class BinarySearchTree {
         }
         return false;
     }
+  // TODO: implement the following methods
+  remove () {
+    
+  }
+  findSecondLargest () {
+    
+  }
+
+  isBalanced () {
+    
+  }
+
 }
 
 //      10

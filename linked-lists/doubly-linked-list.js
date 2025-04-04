@@ -16,7 +16,7 @@ class DoublyLinkedList{
     let newNode = new Node(val)
     if (!this.head) {
       this.head = newNode
-      this.tail = newNode
+      this.tail = this.head
     } else {
       this.tail.next = newNode
       newNode.prev = this.tail
@@ -56,7 +56,7 @@ class DoublyLinkedList{
     let newNode = new Node(val)
     if (this.length === 0){
       this.head = newNode
-      this.tail = newNode
+      this.tail = this.head
     } else {
       this.head.prev = newNode
       newNode.next = this.head
@@ -121,6 +121,26 @@ class DoublyLinkedList{
     this.length--
     return removedNode
   }
+  reverse(){
+        let current = this.head;
+        let temp = null; // Temporary variable to store the previous node
+
+        // Swap the prev and next for each node
+        while (current !== null) {
+            temp = current.prev; // Store the previous node
+            current.prev = current.next; // Swap prev and next
+            current.next = temp; // Restore the previous node as next
+            current = current.prev; // Move to the next node (originally the next)
+        }
+
+        // After the loop, temp will be pointing to the new head
+        if (temp !== null) {
+            this.tail = this.head;
+            this.head = temp.prev; // The new head is the last processed node
+        }
+
+        return this; // Return the modified list
+    }
 }
 
 let list = new DoublyLinkedList()
